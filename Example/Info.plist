@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- the example talks to a livechat.ae server on this Mac (http://localhost:8080) -->
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<!-- the chat lets the visitor send photos taken with the camera -->
+	<key>NSCameraUsageDescription</key>
+	<string>To send a photo in the chat.</string>
+</dict>
+</plist>
